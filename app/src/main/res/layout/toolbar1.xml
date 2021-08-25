@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:background="#d3b8ae"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:src="@drawable/ic_baseline_menu_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100sp"
+        android:text="IMAGE UPLOADER"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:src="@drawable/ic_baseline_more_vert_24"
+        android:textColor="#E7ED2F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70sp"
+        android:text="POKEMON"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</Toolbar>
